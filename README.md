@@ -14,7 +14,7 @@ from this point on if you want to run the code you can just run run.exe (using m
 This was designed to emulate the SAP1(simple as possible) design specification from the book Digital Computer Electronics by Albertt Paul Maldivino. I would recommend reading the book in order to understand how the computer works (I will still include a tutorial on how to use it). The SAP1 design was not intended to be a real practical design just an excerise to get the reader to understand the very basics. I have written this to allow myself to understand the design better and computers as a whole! This design isn't very well written (I am sick) but I had fun doing it anyway. I also haven't added the asynchronus nature of a real computer because it runs in a very linear fashion anyway, due to this I also haven't included a clock of anykind and the emulator will just run as fast as it can. 
 Every Instruction is made of two parts, the instruction and the address in ram where you will find the data for the instruction.
 An example would be 0000(LDA) 1001(RAM address 1001). 
-
+As a quick note I know this could (and should) be all in one file as it is really simple but I wanted to do a super professional full length project (this took me like 3 weeks to read through the book and like 3 days to code) so I wrote all the classes in separate files just for fun.
 
 # Instructions
 To use the computer either run the make file or run the run.exe.
